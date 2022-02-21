@@ -68,6 +68,8 @@ app_license = "MIT"
 # before_install = "erpnext_usa.install.before_install"
 # after_install = "erpnext_usa.install.after_install"
 
+after_install = "erpnext_usa.install.after_install"
+
 # Uninstallation
 # ------------
 
