@@ -41,7 +41,7 @@ frappe.query_reports["IRS 1099"] = {
 
 function build_1099_print(query_report) {
 	let filters = JSON.stringify(query_report.get_values());
-	let w = window.open('/api/method/erpnext.regional.report.irs_1099.irs_1099.irs_1099_print?' +
+	let w = window.open('/api/method/erpnext_usa.erpnext_usa.report.irs_1099.irs_1099.irs_1099_print?' +
 		'&filters=' + encodeURIComponent(filters));
 	// w.print();
 }
